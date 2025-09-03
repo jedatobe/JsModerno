@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Obtener el valor de los campos de formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p#demo {
+            font-size: 1.3rem;
+            font-weight: 500;
+            border: 1px solid #ccc;
+            padding: 22px 0.5em;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos de los formularios</h1>
+
+    <h2>Eventos focus y blur</h2>
+    <div class="field">
+        <input type="text" id="input1">
+        <button type="button">Presiona aquí</button>
+    </div>
+
+    <h2>Evento input</h2>
+    <div class="field">
+        <label for="fname">Nombre:</label> <br><br>
+        <input type="text" name="fname" id="fname" placeholder="Escribe tu nombre"> <br><br>
+    </div>
+
+    <h2>Evento change</h2>
+    <div class="field">
+        <label for="mySelect">Selecciona un país:</label>
+        <select id="mySelect"">
+            <option value=""></option>
+            <option value="ar">Argentina</option>
+            <option value="ca">Canadá</option>
+            <option value="co">Colombia</option>
+            <option value="es">España</option>
+            <option value="us">Estados Unidos de América</option>
+            <option value="mx">México</option>
+            <option value="pe">Perú</option>
+            <option value="do">República Dominicana</option>
+        </select>
+    </div>
+
+    <h2>Evento submit</h2>   
+    <form id="myForm" action="">
+        <div class="field">
+            <label for="name">Ingresa tu nombre:</label>
+            <input type="text" name="fname" id="name">
+           <input type="submit" value="Submit">
+       </div>       
+    </form>
+
+    <p id="demo"></p>
+    
+    <script src="js/aplicacion5.js"></script>
+</body>
+</html>

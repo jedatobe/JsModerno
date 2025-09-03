@@ -1,0 +1,4 @@
+
+https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg
+
+https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg

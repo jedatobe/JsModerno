@@ -1,0 +1,11 @@
+{
+    "ciudad": "Madrid",
+    "temperatura": "80 °F",
+    "sensacion_termica": "90 °F",
+    "humedad": "65%",
+    "viento":{
+        "velocidad": "10 km/h",
+        "direccion": "Oeste"
+    },
+    "descripcion": "Soleado"
+}

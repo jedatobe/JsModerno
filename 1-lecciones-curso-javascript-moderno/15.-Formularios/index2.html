@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Obtener el valor de los campos de formulario</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <h1>Obtener el valor de los campos de formulario</h1>
+    <h2>Radiobuttons</h2>
+
+    <form action="datos.php" method="post" id="signup">
+        <p>Selecciona un tamaño:</p>
+        <div class="field">
+            <input type="radio" name="size" value="XS" id="xs">
+            <label for="xs">Extra small (XS)</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="size" value="S" id="s">
+            <label for="s">Small (S)</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="size" value="M" id="m">
+            <label for="m">Mediun (M)</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="size" value="L" id="l">
+            <label for="l">Large (L)</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="size" value="XL" id="xl">
+            <label for="xl">Extra large (XL)</label>
+        </div>
+        <div class="field">
+            <input type="radio" name="size" value="XXL" id="xxl">
+            <label for="xxl">Extra extra large (XXL)</label>
+        </div>
+
+        <br>
+
+        <div>
+            <button id="btn">Mostrar valores</button>
+        </div>
+    
+        <p id="demo"></p>
+    </form>
+
+    <script src="js/aplicacion2.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    display: block;
+    margin: 0 0 20px;
+}
+select#lenguaje {
+    display: block;
+    width: 22%;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+button {
+    background-color: #178b0f;
+    padding: 12px 2em;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #365a36;
+}

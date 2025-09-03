@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Obtener el valor de los campos de formulario</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <h1>Obtener el valor de los campos de formulario</h1>
+    
+    <h2>Checkboxes</h2>
+
+    <p>Selecciona tu color favorito:</p>
+
+    <form name="colores.php" action="#">
+        <input type="checkbox" name="color1" value="verde" id="c1">Verde
+        <label for="color1"></label><br>
+        <input type="checkbox" name="color2" value="azul" id="c2">Azul
+        <label for="color2"></label><br>
+        <input type="checkbox" name="color3" value="rojo" id="c3">Rojo
+        <label for="color3"></label><br>
+        <input type="checkbox" name="color4" value="amarillo" id="c1">Amarillo
+        <label for="color4"></label><br>
+        <input type="checkbox" name="color5" value="blanco" id="c1">Blanco
+        <label for="color5"></label><br>
+        <br>
+        <div>
+            <button id="btn">Obtener valores</button>
+        </div>        
+    </form>
+    
+    <p id="demo"></p>
+
+    <h2>Marcar / Des-marcar todas las casillas de verificación</h2>
+
+    <form>
+        <label><input type="checkbox" id="checkbox1" class="checkbox">Checkbox 1</label><br>
+        <label><input type="checkbox" id="checkbox2" class="checkbox">Checkbox 2</label><br>
+        <label><input type="checkbox" id="checkbox3" class="checkbox">Checkbox 3</label><br>
+        <label><input type="checkbox" id="checkbox4" class="checkbox">Checkbox 4</label><br>
+        <br>
+        <div>
+            <button id="marcar">Seleccionar todo</button>
+            <button id="desmarcar">Desmarcar todo</button>
+        </div>
+      </form>
+      
+    <script src="js/aplicacion3.js"></script>
+</body>
+</html>

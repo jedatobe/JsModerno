@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detectar botones del ratón</title>
+    <style>
+        .contenedor1 {
+          background-color: green;
+          padding: 50px;
+          width: 50%;
+          margin: 0 auto;
+        }
+
+       .contenedor2 {
+          background-color: blue;
+          padding: 50px;
+          width: 50%;
+          margin: 0 auto;
+        }
+
+        h2 {
+            color: white
+        }
+        
+        #texto1, #texto2 {
+          background-color: white; 
+          font-size: 20px;
+          border: 1px solid;
+          padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propagación y captura de eventos en JavaScript</h1>
+
+    <div class="contenedor1">
+      <h2>Bubbling:</h2>
+      <p id="texto1">Pulsa aquí!</p>
+    </div>    
+    <br>
+
+    <div class="contenedor2">
+      <h2>Capturing:</h2>
+      <p id="texto2">Pulsa aquí!</p>
+    </div>
+
+    <script src="js/aplicacion6.js"></script>
+</body>
+</html>

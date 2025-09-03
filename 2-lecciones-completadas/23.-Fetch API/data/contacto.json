@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Nathalie P.",
+        "edad": 25,
+        "pasatiempos": ["Natación", "Lectura", "Viajar"],
+        "suscriptor": true,
+        "direccion":{
+            "calle": "14th street",
+            "ciudad": "New York, NY",
+            "codigoPostal": 10003,
+            "pais": "USA"
+        }
+    },
+
+    {
+        "nombre": "Leticia T.",
+        "edad": 30,
+        "pasatiempos": ["Ciclismo", "Cantar"],
+        "suscriptor": true,
+        "direccion":{
+            "calle": "Calle de la Fuente",
+            "ciudad": "Barcelona",
+            "codigoPostal": 28015,
+            "pais": "España"
+        }
+    }
+]

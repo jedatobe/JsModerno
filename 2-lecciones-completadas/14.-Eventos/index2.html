@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap"
+    rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <title>Curso de JavaScript Moderno</title>
+    <style>
+      .btn, .btn2 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 150px;
+        height: 48px;
+      }
+      .btn:hover, .dropbtn:focus, btn2:hover {
+        background-color: #3e8e41;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .contenidoMenu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .contenidoMenu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .contenidoMenu a:hover {
+        background-color: #f1f1f1
+      }
+      .mostrarMenu {
+        display:block;
+        }
+        #figura{
+            background-color: goldenrod;
+            height: 200px;
+            width: 200px;
+        }
+</style>
+</head>
+<body>
+   <h1>Eventos del ratón</h1>
+    
+    <section>       
+        <h2>Onclick Event</h2>
+        <p>Presiona sobre este botón para desplegar el menú.</p>
+        <div class="dropdown">
+          <button id="btn1" class="btn"><i class="fas fa-bars"></i> Menú</button>
+          <div id="myDropdown" class="contenidoMenu">
+              <a href="#">Home</a>
+              <a href="#">Acerca de</a>
+              <a href="#">Contacto</a>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <h2>Ondblclick Event</h2>
+      <p id="dobleClick">Presiona dos veces sobre este texto.</p>
+    </section>
+
+    <section>
+      <h2>Onmousedown / Onmouseup Event</h2>
+      <p id="downUp">Presiona sobre este texto.</p>      
+    </section>
+
+    <section>
+      <h2>Onmouseover / Onmouseout Event</h2>
+      <p class="overOut">Pasa el puntero del raton por encima de este texto.</p>      
+    </section>
+
+    <section>
+      <h2>Oncontextmenu Event</h2>
+        <p>Selecciona este texto y presiona el botón derecho del ratón.</p>
+        <p id="menuContextual">Selecciona este texto y presiona el botón derecho del ratón.</p>
+        </div>
+    </section>
+
+    <section>
+      <h2>Onmousemove Event</h2>
+      <div id="figura"></div>
+      <p id="coordenadas"></p>
+    </section>
+
+    <section>
+      <h2>Detectar botones del ratón</h2>
+      <button id="btn" class="btn">Presionar</button>
+      <p id="mensaje"></p>
+    </section>
+
+    <section>
+      <h2>Detectar teclas modificadoras</h2>
+      <button id="btn2" class="btn">Presionar</button>
+      <p id="mensaje2"></p>
+    </section>
+    
+    <script src="js/aplicacion3.js"></script>
+</body>
+</html>

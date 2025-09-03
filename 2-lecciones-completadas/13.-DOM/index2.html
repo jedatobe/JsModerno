@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap"
+    rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../styles/css/style.css"> -->
+    <title>Curso de JavaScript Moderno</title>
+</head>
+<body>
+    <h1>Seleccionar elementos del DOM (Métodos tradicionales)</h1>
+
+    <section>
+        <ul id="menu">
+            <li class="item">HTML</li>
+            <li class="item">CSS</li>
+            <li class="item highlight">JavaScript</li>
+            <li class="item">TypeScript</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Encabezado 1</h2>
+        <p id="destacado">Este es el primer párrafo.</p>
+        <h2>Encabezado 2</h2>
+        <p>Este es el segundo párrafo.</p>
+        <h2>Encabezado 3</h2>
+        <p>Este es el tercer párrafo.</p>
+    </section>
+
+    <section>
+        <p>Cómo calificarias nuestro servicio?</p>
+        <p>
+            <label for="muy-pobre">
+                <input type="radio" value="Muy pobre" id="muy-pobre"> Muy pobre
+            </label>
+            <label for="pobre">
+                <input type="radio" name="calificacion" value="Pobre" id="pobre"> Pobre
+            </label>
+            <label for="regular">
+                <input type="radio" name="calificacion" value="Regular" id="regular"> Regular
+            </label>
+            <label for="bueno">
+                <input type="radio" name="calificacion" value="Bueno"> Bueno
+            </label>
+            <label for="muy-bueno">
+                <input type="radio" name="calificacion" value="Muy bueno" id="muy-bueno"> Muy bueno
+            </label>
+        </p>
+    </section>
+
+    <script src="js/aplicacion2.js"></script>
+</body>
+</html>
