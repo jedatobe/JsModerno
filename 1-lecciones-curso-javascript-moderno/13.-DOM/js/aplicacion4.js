@@ -9,8 +9,26 @@ Propiedades de elementos HTML
 5. previousElementSibling: retorna el elemento hermano anterior al especificado dentro de la lista de hijos de su padre. Null si no lo tiene.
 6. nextElementSibling: devuelve el elemento hermano inmediatamente posterior al especificado dentro de la lista de hijos de su padre. Null si 
 no lo tiene.*/
+let elements = document.body.parentElement;
+elements = document.body.children;
+elements = document.body.firstElementChild;
+elements = document.body.lastElementChild
+elements = document.body.children[1];
+elements = document.body.children[2];
+elements = document.body.previousElementSibling;
+elements = document.body.nextElementSibling;
+console.log(elements);
 
 // Acceder a los elementos hijos de esta sección
+
+let staff = document.querySelector('article > section:nth-child(4)');
+// console.log(staff);
+// console.log(staff.parentElement);
+// console.log(staff.children);
+// console.log(staff.firstElementChild);
+// console.log(staff.lastElementChild);
+// console.log(staff.previousElementSibling);
+// console.log(staff.nextElementSibling);
 
 /*
 Propiedades de nodos HTML
@@ -21,3 +39,11 @@ Propiedades de nodos HTML
 5. previousSibling: devuelve el nodo hermano anterior al nodo especificado o null si no tiene.
 // 6. nextSibling: devuelve el nodo hermano siguiente al nodo especificado o null si no tiene.
 */
+
+let elements2 = document.querySelector('#descripcion');
+console.log(elements2.parentNode);
+console.log(elements2.childNodes);
+console.log(elements2.firstChild);
+console.log(elements2.lastChild);
+console.log(elements2.previousSibling);
+console.log(elements2.nextSibling);
