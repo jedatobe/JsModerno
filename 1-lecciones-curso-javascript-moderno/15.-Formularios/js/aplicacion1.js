@@ -10,3 +10,22 @@
 - Campo oculto (no mostrar al usuario):	<input type="hidden">	
 - Campo alfanumérico extenso:	<textarea>
 */
+const button = document.querySelector('#send')
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    const name = document.querySelector('#nombre').value
+    const message = document.querySelector('#demo')
+
+    message.innerHTML += name + '<br>'
+})
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    const textArea = document.querySelector('#mensaje').value
+    const message = document.querySelector('#demo')
+
+    message.innerHTML += textArea
+})
